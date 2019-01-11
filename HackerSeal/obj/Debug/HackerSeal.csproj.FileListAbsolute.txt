@@ -13,3 +13,4 @@ D:\HackerSeal\HackerSeal\HackerSeal\obj\Debug\HackerSeal.csproj.CoreCompileInput
 D:\HackerSeal\HackerSeal\HackerSeal\obj\Debug\HackerSeal.csproj.CopyComplete
 D:\HackerSeal\HackerSeal\HackerSeal\obj\Debug\HackerSeal.dll
 D:\HackerSeal\HackerSeal\HackerSeal\obj\Debug\HackerSeal.pdb
+D:\HackerSeal\HackerSeal\HackerSeal\bin\Smod2.dll

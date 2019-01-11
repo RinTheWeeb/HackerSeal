@@ -11,7 +11,7 @@ namespace HackerSeal
 		name = "HackerSeal",
 		description = "Kicks New Steam Accounts from your server",
 		id = "rin.HackerSeal.plugin",
-		version = "3.0",
+		version = "1.1",
 		SmodMajor = 3,
 		SmodMinor = 2,
 		SmodRevision = 2
@@ -31,11 +31,11 @@ namespace HackerSeal
 		{
 			// Register Events
 			this.AddEventHandlers(new JoinEventHandler(this));
-			// Register with priority (need to specify the handler type
-			this.AddEventHandler(typeof(IEventHandlerPlayerJoin), new JoinEventHandler(this), Priority.Normal);
 			// Register config settings
 			this.AddConfig(new Smod2.Config.ConfigSetting("hs_enabled", "true", Smod2.Config.SettingType.STRING, true, "Enables Hackerseal"));
 			this.AddConfig(new Smod2.Config.ConfigSetting("hs_noban", "true", Smod2.Config.SettingType.STRING, true, "Doesnt ban the player, but kicks them instead"));
+			this.AddConfig(new Smod2.Config.ConfigSetting("hs_kickmessage", "New Steam accounts are not allowed on this server.", Smod2.Config.SettingType.STRING, true, "The message that will be displayed when a player gets kicked"));
+			this.AddConfig(new Smod2.Config.ConfigSetting("hs_banmessage", "New Steam accounts are not allowed on this server. You have been permanently banned.", Smod2.Config.SettingType.STRING, true, "The message that will be displayed when a player gets banned"));
 		}
 	}
 }

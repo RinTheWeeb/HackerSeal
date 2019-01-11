@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Smod2">
-      <HintPath>..\..\Smod2.dll</HintPath>
+      <HintPath>..\..\..\Smod2-master\Smod2.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AuthEventHandler.cs" />
+    <Compile Include="JoinEventHandler.cs" />
     <Compile Include="HackerSeal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
