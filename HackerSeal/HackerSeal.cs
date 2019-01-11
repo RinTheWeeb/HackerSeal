@@ -34,6 +34,7 @@ namespace HackerSeal
 			// Register config settings
 			this.AddConfig(new Smod2.Config.ConfigSetting("hs_enabled", "true", Smod2.Config.SettingType.STRING, true, "Enables Hackerseal"));
 			this.AddConfig(new Smod2.Config.ConfigSetting("hs_noban", "true", Smod2.Config.SettingType.STRING, true, "Doesnt ban the player, but kicks them instead"));
+			this.AddConfig(new Smod2.Config.ConfigSetting("hs_banduration", 26298000, Smod2.Config.SettingType.NUMERIC, true, "Ban Duration in Minutes. Defaults to 26298000 minutes (=50 years)"));
 			this.AddConfig(new Smod2.Config.ConfigSetting("hs_kickmessage", "New Steam accounts are not allowed on this server.", Smod2.Config.SettingType.STRING, true, "The message that will be displayed when a player gets kicked"));
 			this.AddConfig(new Smod2.Config.ConfigSetting("hs_banmessage", "New Steam accounts are not allowed on this server. You have been permanently banned.", Smod2.Config.SettingType.STRING, true, "The message that will be displayed when a player gets banned"));
 		}
