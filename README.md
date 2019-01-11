@@ -10,8 +10,8 @@ Type Info:
 ### General Settings
 Config Option | Value Type | Default Value | Description
 --- | :---: | :---: | ---
-HackerSeal_enabled | Boolean | True | `Enable / Disable` HackerSeal from loading on server start
-HackerSeal_noban | Boolean | True | `Enable/Disable` HackerSeal will kick new and fresh steam accounts from  your server. Disable to ban them for 50 years instead.
+hs_enabled | Boolean | True | `Enable / Disable` HackerSeal from loading on server start
+hs_noban | Boolean | True | `Enable/Disable` HackerSeal will kick new and fresh steam accounts from  your server. Disable to ban them for 50 years instead.
 
 ## DISCLAIMER
 
