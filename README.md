@@ -2,6 +2,8 @@
 
 This plugin will kick (or ban depending on config) all new and freshly made steam accounts.
 
+Suggestions are welcome in the Issues tab!
+
 ## Config Additions
 Type Info:
 - Boolean: True or False value
