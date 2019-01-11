@@ -1,0 +1,10 @@
+E:\SteamLibrary\steamapps\common\SCP Secret Laboratory2\sm_plugins\ExamplePlugin.dll
+E:\SteamLibrary\steamapps\common\SCP Secret Laboratory2\sm_plugins\ExamplePlugin.pdb
+D:\Smod2-master\ExamplePlugin\ExamplePlugin\obj\Debug\ExamplePlugin.csprojAssemblyReference.cache
+D:\Smod2-master\ExamplePlugin\ExamplePlugin\obj\Debug\ExamplePlugin.csproj.CoreCompileInputs.cache
+D:\Smod2-master\ExamplePlugin\ExamplePlugin\obj\Debug\ExamplePlugin.csproj.CopyComplete
+D:\Smod2-master\ExamplePlugin\ExamplePlugin\bin\HackerSeal.dll
+D:\Smod2-master\ExamplePlugin\ExamplePlugin\bin\HackerSeal.pdb
+D:\Smod2-master\ExamplePlugin\ExamplePlugin\bin\Smod2.dll
+D:\Smod2-master\ExamplePlugin\ExamplePlugin\obj\Debug\HackerSeal.dll
+D:\Smod2-master\ExamplePlugin\ExamplePlugin\obj\Debug\HackerSeal.pdb
