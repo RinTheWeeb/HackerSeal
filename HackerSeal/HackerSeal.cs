@@ -34,8 +34,8 @@ namespace HackerSeal
 			// Register with priority (need to specify the handler type
 			this.AddEventHandler(typeof(IEventHandlerPlayerJoin), new JoinEventHandler(this), Priority.Normal);
 			// Register config settings
-			this.AddConfig(new Smod2.Config.ConfigSetting("HackerSeal_enabled", "true", Smod2.Config.SettingType.STRING, true, "Enables Hackerseal"));
-			this.AddConfig(new Smod2.Config.ConfigSetting("HackerSeal_noban", "true", Smod2.Config.SettingType.STRING, true, "Doesnt ban the player, but kicks them instead"));
+			this.AddConfig(new Smod2.Config.ConfigSetting("hs_enabled", "true", Smod2.Config.SettingType.STRING, true, "Enables Hackerseal"));
+			this.AddConfig(new Smod2.Config.ConfigSetting("hs_noban", "true", Smod2.Config.SettingType.STRING, true, "Doesnt ban the player, but kicks them instead"));
 		}
 	}
 }
