@@ -8,6 +8,7 @@ Suggestions are welcome in the Issues tab!
 Type Info:
 - Boolean: True or False value
 - String: A string of characters
+- Integer: Value of Numbers
 
 ## If you do not intend to change the default values, there's no need to include any of these in your config
 ### General Settings
