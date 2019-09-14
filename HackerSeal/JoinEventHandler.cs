@@ -16,6 +16,7 @@ namespace HackerSeal.HackerSealPlugin
 		public JoinEventHandler(HackerSeal HackerSealPlugin)
 		{
 			this.HackerSealPlugin = HackerSealPlugin;
+            //yes
 		}
 
 		public void OnPlayerJoin(PlayerJoinEvent ev)
