@@ -25,6 +25,7 @@ namespace HackerSeal
 		public override void OnEnable()
 		{
 			this.Info("HackerSeal has been loaded and ready to seal!");
+            //:)
 		}
 
 		public override void Register()
